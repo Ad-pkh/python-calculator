@@ -91,7 +91,7 @@ btn_sum=Button(root,text="+",bg="yellow",fg="red",width=5,height=2,command=lambd
 btn_sum.grid(row=3,column=3)
 btn_sum.config(font=("Vandana",16,"bold"))
 
-btn_clear=Button(root,text="c",bg="red",fg="yellow",width=5,height=2,command=lambda:clear())
+btn_clear=Button(root,text="C",bg="yellow",fg="red",width=5,height=2,command=lambda:clear())
 btn_clear.grid(row=4,column=0)
 btn_clear.config(font=("Vandana",16,"bold"))
 
